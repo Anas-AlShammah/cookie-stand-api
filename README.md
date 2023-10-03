@@ -1,7 +1,9 @@
 # Pat's Salmon Cookie Stand Application
 
 Welcome to Pat's Salmon Cookie Stand Application! This application helps Pat manage and track the performance of various cookie stands in different locations.
+
 ![](1.png)
+
 ## Overview
 
 Pat's Salmon Cookie Stand Application is designed to provide a platform for managing cookie stands. The application allows Pat to perform CRUD (Create, Read, Update, Delete) operations on cookie stands and view sales data.
@@ -25,9 +27,13 @@ Pat's Salmon Cookie Stand Application is designed to provide a platform for mana
 The API provides the following endpoints:
 
 POST: /api/cookiestand: Create a new cookie stand.
+
 GET: /api/cookiestands: Retrieve a list of all cookie stands.
+
 GET: /api/cookiestand/{id}: Retrieve a specific cookie stand by ID.
+
 PUT: /api/cookiestand/{id}: Update an existing cookie stand by ID.
+
 DELETE: /api/cookiestand/{id}: Delete a cookie stand by ID.
 
 ## Contributing
